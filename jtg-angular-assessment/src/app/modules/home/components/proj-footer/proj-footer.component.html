@@ -1,0 +1,27 @@
+<div class="d-flex flex-column h-100 bg-dark">
+  <footer class="w-100 py-4 flex-shrink-0">
+    <div class="container py-4">
+      <div class="row gy-4 gx-5">
+        <div class="col-lg-10 col-md-6">
+          <img src="assets/icons/logo.png">
+          <p class="menu mt-4">
+            <a href="" *ngFor="let links of levelOneLinks">{{ links }}</a>
+          </p>
+          <p class="menu mt-2">
+            <a href="#" *ngFor="let links of levelTwoLinks">{{ links }}</a>
+          </p>
+          <p class="text-white">
+            © 2020 Taskado. All rights reserved.
+          </p>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="text-white mb-3">Get the App</h5>
+          <ul class="list-unstyled text-muted">
+            <li><button class="btn text-white p-0"><img src="assets/icons/google_play_store_logo.png"></button></li>
+            <li><button class="btn text-white p-0 mt-2"><img src="assets/icons/apple_store_logo.png"></button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
