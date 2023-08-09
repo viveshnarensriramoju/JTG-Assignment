@@ -3,3 +3,89 @@
   /* For browsers that do not support gradients */
   background: linear-gradient(105deg, white, #f0e6fc);
 }
+
+.div-position {
+  margin-left: 165px
+}
+
+.image-pane {
+  position: absolute;
+  z-index: 110;
+}
+
+.upper-space {
+  margin-top: 100px;
+}
+
+.center {
+  margin-top: 100px;
+  width: 100%;
+  padding: 10px;
+}
+
+.button-indigo {
+  background: #8C30F5;
+  width: 154px;
+  height: 48px;
+  padding: 12px, 32px, 12px, 32px;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.text-style {
+  font-size: 72px;
+  color: #18191F;
+  font-family: 'Inter';
+  font-weight: 800;
+  line-height: 98px;
+}
+
+.parallelogram-left-top {
+  margin-left: -10px;
+  margin-top: 100px;
+  height: 50px;
+  width: 35%;
+  background-color: #2EC5CE;
+  transform: skew(20deg);
+  transform: rotate(-10deg);
+}
+
+.parallelogram-left-bottom {
+  margin-left: -10px;
+  margin-top: 12px;
+  height: 50px;
+  width: 25%;
+  background-color: #D6B1FF;
+  transform: skew(20deg);
+  transform: rotate(-10deg);
+}
+
+.parallelogram-right-top {
+  margin-left: 110%;
+  margin-top: -380px;
+  height: 50px;
+  width: 35%;
+  background-color: #D6B1FF;
+  transform: skew(20deg);
+  transform: rotate(-10deg);
+}
+
+.parallelogram-right-middle {
+  margin-left: 92%;
+  margin-top: 13px;
+  height: 50px;
+  width: 60%;
+  background-color: #8C30F5;
+  transform: skew(20deg);
+  transform: rotate(-10deg);
+}
+
+.parallelogram-right-bottom {
+  margin-left: 122%;
+  margin-top: -30px;
+  height: 50px;
+  width: 30%;
+  background-color: #2EC5CE;
+  transform: skew(20deg);
+  transform: rotate(-10deg);
+}

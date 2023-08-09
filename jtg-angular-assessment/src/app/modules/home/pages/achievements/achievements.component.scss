@@ -1,0 +1,151 @@
+.title-font {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+.image-padding {
+  padding: 100px;
+}
+
+.paragraph-styles {
+  padding: 100px 350px 0 0;
+
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #000000;
+    padding-bottom: 20px;
+  }
+
+  p {
+    color: #18191F;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  button {
+    padding: 0;
+    color: #8C30F5;
+  }
+}
+
+.icon-1-1 {
+  position: absolute;
+  height: 32px;
+  width: 9.33px;
+  background-color: #8C30F5;
+  left: 940px
+}
+
+.icon-1-2 {
+  position: absolute;
+  height: 32px;
+  width: 9.33px;
+  background-color: #2EC5CE;
+  left: 950px
+}
+
+.icon-1-3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #D6B1FF;
+  left: 960px
+}
+
+.icon-1-4 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #D6B1FF;
+  left: 960px;
+  margin-top: 20px
+}
+
+.icon-2-1 {
+  position: absolute;
+  width: 26.67px;
+  height: 5.33px;
+  background: #2EC5CE;
+  left: 1350px
+}
+
+.icon-2-2 {
+  position: absolute;
+  width: 26.67px;
+  height: 16px;
+  background: #8C30F5;
+  left: 1350px;
+  margin-top: 7px;
+}
+
+.icon-2-3 {
+  position: absolute;
+  width: 14.67px;
+  height: 5.33px;
+  background: #D6B1FF;
+  left: 1360px;
+  margin-top: 25px;
+}
+
+.icon-3-1 {
+  position: absolute;
+  width: 5.33px;
+  height: 29.33px;
+  background: #D6B1FF;
+  left: 940px;
+  margin-top: 10px;
+}
+
+.icon-3-2 {
+  position: absolute;
+  width: 13.33px;
+  height: 29.33px;
+  background: #8C30F5;
+  left: 947px;
+  margin-top: 10px;
+}
+
+.icon-3-3 {
+  position: absolute;
+  width: 5.33px;
+  height: 29.33px;
+  background: #2EC5CE;
+  left: 962px;
+  margin-top: 10px;
+}
+
+.icon-4-1 {
+  position: absolute;
+  width: 5.33px;
+  height: 29.33px;
+  background: #D6B1FF;
+  left: 1350px;
+  margin-top: 10px;
+}
+
+.icon-4-2 {
+  position: absolute;
+  width: 13.33px;
+  height: 29.33px;
+  background: #8C30F5;
+  left: 1357px;
+  margin-top: 10px;
+}
+
+.icon-4-3 {
+  position: absolute;
+  width: 5.33px;
+  height: 29.33px;
+  background: #2EC5CE;
+  left: 1372px;
+  margin-top: 10px;
+}

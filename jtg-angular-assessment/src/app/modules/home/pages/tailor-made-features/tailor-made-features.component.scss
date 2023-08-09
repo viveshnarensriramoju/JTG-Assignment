@@ -1,0 +1,182 @@
+.div-position {
+  margin-top: 80px;
+}
+
+.inner-div-position {
+  margin-top: 60px;
+}
+
+.icon-1-1 {
+  position: absolute;
+  height: 32px;
+  width: 9.33px;
+  background-color: #8C30F5;
+  left: 285px
+}
+
+.icon-1-2 {
+  position: absolute;
+  height: 32px;
+  width: 9.33px;
+  background-color: #2EC5CE;
+  left: 295px
+}
+
+.icon-1-3 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #D6B1FF;
+  left: 308px
+}
+
+.icon-1-4 {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #D6B1FF;
+  left: 308px;
+  margin-top: 20px
+}
+
+.icon-2-1 {
+  position: absolute;
+  width: 29.33px;
+  height: 8px;
+  transform: skew(-20deg);
+  background: #8C30F5;
+  left: 900px
+}
+
+.icon-2-2 {
+  position: absolute;
+  width: 29.33px;
+  height: 8px;
+  transform: skew(-20deg);
+  background: #2EC5CE;
+  margin-top: 10px;
+  left: 900px
+}
+
+.icon-2-3 {
+  position: absolute;
+  width: 29.33px;
+  height: 8px;
+  transform: skew(-20deg);
+  background: #D6B1FF;
+  margin-top: 20px;
+  left: 900px
+}
+
+.icon-3-1 {
+  position: absolute;
+  width: 29.33px;
+  height: 6.67px;
+  background: #2EC5CE;
+  left: 1520px
+}
+
+.icon-3-2 {
+  position: absolute;
+  width: 8px;
+  height: 20px;
+  background: #D6B1FF;
+  left: 1520px;
+  margin-top: 10px;
+}
+
+.icon-3-3 {
+  position: absolute;
+  width: 18.67px;
+  height: 20px;
+  background: #8C30F5;
+  left: 1530px;
+  margin-top: 10px;
+}
+
+.icon-4-1 {
+  position: absolute;
+  width: 26.67px;
+  height: 5.33px;
+  background: #2EC5CE;
+  left: 285px
+}
+
+.icon-4-2 {
+  position: absolute;
+  width: 26.67px;
+  height: 16px;
+  background: #8C30F5;
+  left: 285px;
+  margin-top: 7px;
+}
+
+.icon-4-3 {
+  position: absolute;
+  width: 14.67px;
+  height: 5.33px;
+  background: #D6B1FF;
+  left: 297px;
+  margin-top: 25px;
+}
+
+.icon-5-1 {
+  position: absolute;
+  width: 5.33px;
+  height: 29.33px;
+  background: #D6B1FF;
+  left: 900px;
+  margin-top: 10px;
+}
+
+.icon-5-2 {
+  position: absolute;
+  width: 13.33px;
+  height: 29.33px;
+  background: #8C30F5;
+  left: 907px;
+  margin-top: 10px;
+}
+
+.icon-5-3 {
+  position: absolute;
+  width: 5.33px;
+  height: 29.33px;
+  background: #2EC5CE;
+  left: 922px;
+  margin-top: 10px;
+}
+
+.icon-6-1 {
+  position: absolute;
+  width: 31.09px;
+  height: 14.77px;
+  transform: skew(60deg);
+  background: #8C30F5;
+  left: 1510px;
+  margin-top: 10px;
+}
+
+.icon-6-2 {
+  position: absolute;
+  width: 31.09px;
+  height: 14.77px;
+  transform: skew(60deg);
+  background: #D6B1FF;
+  left: 1510px;
+  margin-top: 15px;
+}
+
+.icon-6-3 {
+  position: absolute;
+  width: 31.09px;
+  height: 14.77px;
+  transform: skew(60deg);
+  background: #2EC5CE;
+  left: 1510px;
+  margin-top: 20px;
+}

@@ -1,0 +1,37 @@
+<div class="d-flex justify-content-center div-position">
+  <h1>Tailor-made features</h1>
+</div>
+<div class="d-flex justify-content-center">
+  <p>Lorem ipsum is common placeholder text used to demonstrate</p>
+</div>
+<div class="d-flex justify-content-center">
+  <p>the graphic element of a document or visual presentation.</p>
+</div>
+<div class="row mt-4">
+  <div class="col-xl-4" *ngFor="let card of level1CardsConfig">
+    <div *ngFor="let icons of card.iconDivs" class="icon-{{ card.id }}-{{ icons }}"></div>
+    <div class="d-flex justify-content-center inner-div-position">
+      <h5>{{ card.title }}</h5>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>{{ card.p1 }}</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>{{ card.p2 }}</p>
+    </div>
+  </div>
+</div>
+<div class="row div-position">
+  <div class="col-xl-4" *ngFor="let card of level2CardsConfig">
+    <div *ngFor="let icons of card.iconDivs" class="icon-{{ card.id }}-{{ icons }}"></div>
+    <div class="d-flex justify-content-center inner-div-position">
+      <h5>{{ card.title }}</h5>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>{{ card.p1 }}</p>
+    </div>
+    <div class="d-flex justify-content-center">
+      <p>{{ card.p2 }}</p>
+    </div>
+  </div>
+</div>
